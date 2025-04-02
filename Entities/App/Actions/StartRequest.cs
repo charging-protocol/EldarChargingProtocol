@@ -33,12 +33,11 @@ namespace Entities.App.Actions
 
         bool? NeedToChargeToken { get; set; }
 
-
         [StringLength(100)]
         public string? DriverId { get; set; }// Identifies the EV Driver
 
 
-
-
+        [StringLength(100)]
+        public string? TariffId { get; set; }
     }
 }

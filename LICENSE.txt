@@ -7,21 +7,21 @@ subject to the following conditions:
 
 1. This license applies to personal, academic, or commercial use, under the terms below.
 
-2. The copyright holder reserves the right to change the terms of this license at any time,
-   including (but not limited to) the introduction of commercial terms such as
-   usage fees, subscriptions, or royalties.
+2. The copyright holder may change the terms of this license at any time,
+   including (but not limited to) introducing commercial terms such as usage fees,
+   subscriptions, or royalties.
 
-3. Continued use of the Software after any such license change constitutes acceptance
-   of the updated license terms.
+3. **Continued use of the Software after any license change constitutes acceptance
+   of the updated terms and agreement to comply with them**, including payment
+   of any applicable fees, even for users who obtained the Software under previous terms.
 
-4. It is the user's responsibility to check for updated license terms. Updates will
-   be published in this repository.
+4. It is the user's responsibility to review the current license terms,
+   which will be published in this repository.
 
-5. The above rights apply only to versions of the Software published under this license.
-   Future versions may be licensed differently.
+5. If the user does not accept updated license terms, they must immediately cease using the Software.
 
 6. The Software is provided "as is", without warranty of any kind, express or implied,
-   including but not limited to the warranties of merchantability, fitness for a particular
+   including but not limited to warranties of merchantability, fitness for a particular
    purpose, and noninfringement.
 
 ---

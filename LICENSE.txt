@@ -4,7 +4,7 @@ Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to use,
 copy, distribute, and/or modify the Software, subject to the following conditions:
 
-1. This permission applies under the current version of this license, which is free of charge.
+1. This permission applies under the current version of this license, which is free of charge. This permission is granted conditionally, and may be revoked or modified by updated license terms.
 
 2. The copyright holder reserves the right to change the terms of this license
    at any time, including (but not limited to) introducing fees, subscriptions,

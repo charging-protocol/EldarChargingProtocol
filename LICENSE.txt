@@ -2,27 +2,22 @@ Copyright (c) 2025 Eldar Charging Protocol
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to use,
-copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software,
-subject to the following conditions:
+copy, distribute, and/or modify the Software, subject to the following conditions:
 
-1. This license applies to personal, academic, or commercial use, under the terms below.
+1. This permission applies under the current version of this license, which is free of charge.
 
-2. The copyright holder may change the terms of this license at any time,
-   including (but not limited to) introducing commercial terms such as usage fees,
-   subscriptions, or royalties.
+2. The copyright holder reserves the right to change the terms of this license
+   at any time, including (but not limited to) introducing fees, subscriptions,
+   or other commercial terms.
 
-3. **Continued use of the Software after any license change constitutes acceptance
-   of the updated terms and agreement to comply with them**, including payment
-   of any applicable fees, even for users who obtained the Software under previous terms.
+3. Continued use of the Software after such changes constitutes acceptance of the new terms,
+   including payment of any required fees.
 
-4. It is the user's responsibility to review the current license terms,
-   which will be published in this repository.
+4. Users are responsible for checking for updates to the license, which will be published
+   in this repository. If a user does not agree to the new terms, they must stop using the Software.
 
-5. If the user does not accept updated license terms, they must immediately cease using the Software.
+5. The Software is provided "as is", without warranty of any kind, express or implied.
 
-6. The Software is provided "as is", without warranty of any kind, express or implied,
-   including but not limited to warranties of merchantability, fitness for a particular
-   purpose, and noninfringement.
 
 ---
 

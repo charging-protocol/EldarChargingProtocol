@@ -1,13 +1,11 @@
-
-
 Copyright (c) 2025 Eldar Charging Protocol
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to use
-the Software, subject to the following conditions:
+of this software and associated documentation files (the "Software"), to use,
+copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software,
+subject to the following conditions:
 
-1. The Software is provided free of charge for personal, academic, or commercial use,
-   under the terms of this license as currently stated.
+1. This license applies to personal, academic, or commercial use, under the terms below.
 
 2. The copyright holder reserves the right to change the terms of this license at any time,
    including (but not limited to) the introduction of commercial terms such as
@@ -19,8 +17,8 @@ the Software, subject to the following conditions:
 4. It is the user's responsibility to check for updated license terms. Updates will
    be published in this repository.
 
-5. Redistribution of the Software, in whole or in part, is not permitted without
-   explicit written permission from the copyright holder.
+5. The above rights apply only to versions of the Software published under this license.
+   Future versions may be licensed differently.
 
 6. The Software is provided "as is", without warranty of any kind, express or implied,
    including but not limited to the warranties of merchantability, fitness for a particular

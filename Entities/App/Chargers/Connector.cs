@@ -33,8 +33,8 @@ namespace Entities.App.Chargers
         public List<Language>? Notes { get; set; }
 
 
-        [StringLength(100)]
-        public List<string> TariffsIds { get; set; }
+        //  [StringLength(100)]
+        public List<string>? TariffsIds { get; set; }
 
         [StringLength(100)]
         public List<Connector> Connectors { get; set; }

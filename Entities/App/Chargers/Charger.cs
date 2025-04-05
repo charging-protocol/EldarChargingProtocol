@@ -1,35 +1,25 @@
-﻿using Entities.Communication.Common;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 
 namespace Entities.App.Chargers
 {
     public class Charger
     {
-
         [Required, StringLength(100)]
         public string ChargerId { get; set; }
 
+        [StringLength(100)]
+        public string? CpoId { get; set; } // Required if LocationId is null
+
+        public Company? Company { get; set; }
 
         [StringLength(100)]
-        public string LocationId { get; set; }
+        public string? LocationId { get; set; }
 
-        public Location? Location { get; set; }
+        public ChargerLocation? ChargerLocation { get; set; }  // Required if LocationId is null
 
         public List<PaymentSupportEnum>? PaymentSupport { get; set; }
 
-        public List<Language>? Notes { get; set; }
-
-
-        [StringLength(100)]
-        public string Latitude { get; set; }
-
-        [StringLength(100)]
-        public string Longitude { get; set; }
-
-        public List<string>? Images { get; set; }
-
-
-        [StringLength(100)]
+        //[StringLength(100)]
         public List<string>? TariffsIds { get; set; }
 
         [Required, MinLength(1)]

@@ -5,10 +5,8 @@ namespace Entities.App.Chargers
 {
     public class Connector
     {
-
         [Required, StringLength(100)]
-        public string ConnectorId { get; set; }
-
+        public string Id { get; set; }
 
         [Required]
         public ConnectorStatusEnum? Status { get; set; }

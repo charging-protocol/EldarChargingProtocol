@@ -5,7 +5,6 @@ namespace Entities.App.Chargers
 {
     public class EVSE
     {
-
         [Required, StringLength(100)]
         public string EVSEId { get; set; }
 

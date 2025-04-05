@@ -5,7 +5,7 @@ namespace Entities.App.Chargers
     public class Charger
     {
         [Required, StringLength(100)]
-        public string ChargerId { get; set; }
+        public string Id { get; set; }
 
         [StringLength(100)]
         public string? CpoId { get; set; } // Required if LocationId is null

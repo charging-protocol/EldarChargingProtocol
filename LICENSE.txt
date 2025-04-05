@@ -1,30 +1,23 @@
-
-
 Copyright (c) 2025 Eldar Charging Protocol
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to use
-the Software, subject to the following conditions:
+of this software and associated documentation files (the "Software"), to use,
+copy, distribute, and/or modify the Software, subject to the following conditions:
 
-1. The Software is provided free of charge for personal, academic, or commercial use,
-   under the terms of this license as currently stated.
+1. This permission applies under the current version of this license, which is free of charge. This permission is granted conditionally, and may be revoked or modified by updated license terms.
 
-2. The copyright holder reserves the right to change the terms of this license at any time,
-   including (but not limited to) the introduction of commercial terms such as
-   usage fees, subscriptions, or royalties.
+2. The copyright holder reserves the right to change the terms of this license
+   at any time, including (but not limited to) introducing fees, subscriptions,
+   or other commercial terms.
 
-3. Continued use of the Software after any such license change constitutes acceptance
-   of the updated license terms.
+3. Continued use of the Software after such changes constitutes acceptance of the new terms,
+   including payment of any required fees.
 
-4. It is the user's responsibility to check for updated license terms. Updates will
-   be published in this repository.
+4. Users are responsible for checking for updates to the license, which will be published
+   in this repository. If a user does not agree to the new terms, they must stop using the Software.
 
-5. Redistribution of the Software, in whole or in part, is not permitted without
-   explicit written permission from the copyright holder.
+5. The Software is provided "as is", without warranty of any kind, express or implied.
 
-6. The Software is provided "as is", without warranty of any kind, express or implied,
-   including but not limited to the warranties of merchantability, fitness for a particular
-   purpose, and noninfringement.
 
 ---
 

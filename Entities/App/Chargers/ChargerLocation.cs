@@ -7,8 +7,8 @@ namespace Entities.App.Chargers
     {
         public Company? OwnerDetails { get; set; }
 
-        public double? Latitude { get; set; } // Required if LocationId or Location is null
-        public double? Longitude { get; set; } // Required if LocationId or Location is null
+        public double? Latitude { get; set; } // Required if LocationId is null
+        public double? Longitude { get; set; } // Required if LocationId is null
 
         public float? TimeZone { get; set; } // Required if LocationId is null
 

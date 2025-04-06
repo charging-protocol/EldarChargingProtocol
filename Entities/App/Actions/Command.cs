@@ -2,10 +2,10 @@
 {
     public enum Command
     {
-        Reserve,
-        UnReserve,
         Start,
         Stop,
+        Reserve,
+        UnReserve,
         UnlockConnector
     }
 }

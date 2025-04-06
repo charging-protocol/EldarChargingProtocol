@@ -1,14 +1,14 @@
 ﻿using Entities.App.Common;
 using Microsoft.AspNetCore.Mvc;
 
-namespace App.Api.Controllers.AppControllers
+namespace App.Api.Controllers
 {
     [ApiController]
-    [Route("app")]
+    [Route("")]
     public class CoreController : ControllerBase
     {
         [HttpGet("heartbeat")]
-        public string Heartbeatet()
+        public string Heartbeat()
         {
             return DateTime.UtcNow.ToLongDateString();
         }

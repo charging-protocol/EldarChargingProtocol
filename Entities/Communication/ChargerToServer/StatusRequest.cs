@@ -41,7 +41,7 @@ namespace Entities.Communication.ChargerToServer
         [Required, Range(1, byte.MaxValue)]
         public EvseConnectorStatusEnum? OldStatus { get; set; }
 
-        public Dictionary<string, object>? Data { get; set; }
+        public Dictionary<string, object>? Extend { get; set; }
 
     }
 

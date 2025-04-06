@@ -35,7 +35,7 @@ namespace Entities.Communication.ChargerToServer
 
     public class Meter
     {
-        public Dictionary<string, object>? Data { get; set; }
+        public Dictionary<string, object>? Extend { get; set; }
 
         [Required]
         public DateTime? DateTime { get; set; }

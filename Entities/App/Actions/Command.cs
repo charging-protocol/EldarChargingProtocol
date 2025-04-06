@@ -6,6 +6,6 @@
         UnReserve,
         Start,
         Stop,
-        Unlock
+        UnlockConnector
     }
 }

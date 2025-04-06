@@ -17,7 +17,7 @@ namespace Entities.Communication.Common
         public DateTime? DateTime { get; set; }
 
         [MinLength(1)]
-        public Dictionary<string, object>? Data { get; set; }
+        public Dictionary<string, object>? Extend { get; set; }
     }
 
 

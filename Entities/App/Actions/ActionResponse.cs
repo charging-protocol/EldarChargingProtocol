@@ -4,15 +4,11 @@ using System.ComponentModel.DataAnnotations;
 namespace Entities.App.Actions
 {
 
-    public class ActionResponse
+    public class ActionResponse : ApiResponse
     {
-        [MinLength(1)]
-        public Dictionary<string, object>? Data { get; set; }
+        [StringLength(100)]
+        public string ActionId { get; set; }
 
-        [Required]
-        public CodeEnum? Code { get; set; }
 
-        [Required, StringLength(100)]
-        public string RequestId { get; set; }
     }
 }

@@ -2,12 +2,11 @@
 
 namespace Entities.App.Actions
 {
-    public class LateResponse
+    public class EventRequest
     {
-        [MinLength(1)]
-        public Dictionary<string, object>? Data { get; set; }
-
         [Required]
         public Command? Command { get; set; }
+
+        public object LateResponse { get; set; }
     }
 }

@@ -43,7 +43,7 @@ namespace Entities.Communication.ServerToCharger
 
     public class Period
     {
-        public Dictionary<string, object>? Data { get; set; }
+        public Dictionary<string, object>? Extend { get; set; }
 
         [StringLength(5)]
         public string? StartDate { get; set; } // MM-dd

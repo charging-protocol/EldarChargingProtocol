@@ -13,7 +13,7 @@ namespace Entities.Communication.ServerToCharger
 
     public class Parameter
     {
-        public Dictionary<string, object>? Data { get; set; }
+        public Dictionary<string, object>? Extend { get; set; }
 
         [Required, StringLength(100)]
         public string Name { get; set; }

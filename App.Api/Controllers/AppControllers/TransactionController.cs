@@ -9,8 +9,20 @@ namespace App.Api.Controllers.AppControllers
     public class TransactionController : ControllerBase
     {
 
-        [HttpPost("upsertTransaction")]
+        [HttpPost("upsertTariff")]
         public ApiResponse UpsertTransaction(Transaction req)
+        {
+            throw new NotImplementedException();
+        }
+
+        [HttpPost("upsertTariff")]
+        public ApiResponse UpsertTariff(Tariff req)
+        {
+            throw new NotImplementedException();
+        }
+
+        [HttpPost("upsertInvoicef")]
+        public ApiResponse UpsertInvoice(Invoice req)
         {
             throw new NotImplementedException();
         }

@@ -38,7 +38,7 @@ namespace Entities.Communication.ChargerToServer
         public Dictionary<string, object>? Extend { get; set; }
 
         [Required]
-        public DateTime? DateTime { get; set; }
+        public DateTime? TimeStamp { get; set; }
 
         [Required]
         public decimal? Val { get; set; }

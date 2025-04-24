@@ -7,7 +7,7 @@ namespace Entities.Communication.ChargerToServer
     {
 
         [Required]
-        public DateTime? DateTime { get; set; }
+        public DateTime? TimeStamp { get; set; }
 
         [Required]
         public int? BootInterval { get; set; }

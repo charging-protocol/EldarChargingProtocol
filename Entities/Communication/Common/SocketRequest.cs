@@ -35,8 +35,7 @@ namespace Entities.Communication.Common
         Status,
         SupportedParameters,
 
-        SendParameters,
-        GetParameters,
+
 
         SendTokens,
         GetTokens,
@@ -46,6 +45,12 @@ namespace Entities.Communication.Common
         // -------- From Server to Charger --------
         SendChargingProfile,
         DeleteChargingProfile,
+
+        SendParameters,
+        GetParameters,
+
+        SendObserveParameters,
+        DeleteObserveParameters,
 
         Reserve,
         UnReserve,

@@ -3,13 +3,13 @@ using System.ComponentModel.DataAnnotations;
 
 namespace Entities.Communication.ServerToCharger
 {
-    public class SendParametersResponse : SocketResponse
+    public class SendObserveParametersResponse : SocketResponse
     {
-        [Required, MinLength(1)]
-        public List<ParameterResponse> Parameters { get; set; }
+        [MinLength(1)]
+        public List<SendObserveParameterResponse>? Parameters { get; set; }
     }
 
-    public class ParameterResponse
+    public class SendObserveParameterResponse
     {
         public Dictionary<string, object>? Extend { get; set; }
 
@@ -22,19 +22,16 @@ namespace Entities.Communication.ServerToCharger
         [Range(1, byte.MaxValue)]
         public byte? ConnectorId { get; set; }
 
-
         [Required]
-        public SendParameterCodeEnum? Code { get; set; }
+        public SendObserveParameterCodeEnum? Code { get; set; }
     }
 
-    public enum SendParameterCodeEnum : byte
+    public enum SendObserveParameterCodeEnum : byte
     {
         Ok,
         Rejected,
         Unknown,
-        RebootRequired,
     }
-
 
 
 

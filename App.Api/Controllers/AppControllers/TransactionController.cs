@@ -21,7 +21,7 @@ namespace App.Api.Controllers.AppControllers
             throw new NotImplementedException();
         }
 
-        [HttpPost("upsertInvoicef")]
+        [HttpPost("upsertInvoice")]
         public ApiResponse UpsertInvoice(Invoice req)
         {
             throw new NotImplementedException();

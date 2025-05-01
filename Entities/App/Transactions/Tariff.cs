@@ -50,7 +50,7 @@ namespace Entities.App.Transactions
 
         public DateOnly? EndDate { get; set; } // exclusive
 
-        public List<byte> Days { get; set; }
+        public List<byte>? Days { get; set; }
 
         public double? MinKwh { get; set; } // inclusive
 

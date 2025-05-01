@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Entities.Communication.Common;
+using System.ComponentModel.DataAnnotations;
 
 namespace Entities.App.Transactions
 {
@@ -10,6 +11,9 @@ namespace Entities.App.Transactions
 
         [Required, StringLength(100)]
         public string CpoId { get; set; }
+
+        [Required, StringLength(100)]
+        public string LocationId { get; set; }
 
         [Required, StringLength(100)]
         public string ChargerId { get; set; }
@@ -38,6 +42,16 @@ namespace Entities.App.Transactions
         public double? Cost { get; set; }
 
         public double? CostWithoutVat { get; set; }
+
+        [Required]
+        public TokenTypeEnum? TokenType { get; set; }
+
+        [StringLength(3000)]
+        public string? Token { get; set; }
+
+        [StringLength(100)]
+        public string TokenCpoId { get; set; }
+
 
 
         [Required]

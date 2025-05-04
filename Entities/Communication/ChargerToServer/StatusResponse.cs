@@ -6,7 +6,7 @@ namespace Entities.Communication.ChargerToServer
     {
     }
 
-    public enum AEvsesStatusCodeEnum : byte
+    public enum StatusCodeEnum : byte
     {
         Ok,
         Rejected,

@@ -100,6 +100,11 @@ namespace Entities.App.Transactions
         [Required]
         public TariffTypeEnum? Type { get; set; }
 
+
+        [Required]
+        public TariffChargeMethodEnum? Method { get; set; }
+
+
         [Required]
         public double? Amount { get; set; }
 
@@ -126,17 +131,27 @@ namespace Entities.App.Transactions
         [Required]
         public TariffTypeEnum? Type { get; set; }
 
+
+        [Required]
+        public TariffChargeMethodEnum? Method { get; set; }
+
         [Required]
         public double? Amount { get; set; }
     }
 
     public enum TariffTypeEnum : byte
     {
+        Charging = 1,
+        Fee = 2,
+        Parking = 3,
+        Reservation = 4,
+        ReservationExpire = 5,
+    }
+
+    public enum TariffChargeMethodEnum : byte
+    {
         Energy = 1,
-        OneTimeFee = 2,
-        ParkingTime = 3,
-        ChargingTime = 4,
-        ReservationTime = 5,
-        ReservationExpireTime = 6,
+        Flat = 2,
+        Time = 3,
     }
 }

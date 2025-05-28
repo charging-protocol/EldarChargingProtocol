@@ -55,6 +55,9 @@ namespace Entities.Communication.ServerToCharger
 
         public List<DayOfWeekEnum>? Days { get; set; }
 
+        public LimitUnitEnum LimitUnit { get; set; }
+
+
         [Required, Range(0, double.MaxValue)]
         public double? Val { get; set; }
     }
@@ -71,6 +74,12 @@ namespace Entities.Communication.ServerToCharger
     }
 
 
+    public enum LimitUnitEnum : byte
+    {
+        A,
+        W,
+        Wh
+    }
 
 
 

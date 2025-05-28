@@ -36,6 +36,10 @@ namespace Entities.Communication.ChargerToServer
 
         [Range(1, byte.MaxValue)]
         public byte? ConnectorId { get; set; }
+
+
+        [StringLength(50)]
+        public string? PayProfile { get; set; }
     }
 
     public enum AuthorizeActionEnum : byte

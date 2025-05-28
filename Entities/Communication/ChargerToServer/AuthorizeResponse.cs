@@ -8,6 +8,10 @@ namespace Entities.Communication.ChargerToServer
         [StringLength(100)]
         public string? TokenGroupId { get; set; }
         public DateTime? TokenExpiryDate { get; set; }
+
+        public double? LimitWh { get; set; }
+        public double? LimitChargeTimeSeconds { get; set; }
+
     }
 
     public enum AuthorizeCodeEnum : byte

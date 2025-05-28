@@ -9,8 +9,8 @@ namespace Entities.Communication.ChargerToServer
         public string? TokenGroupId { get; set; }
         public DateTime? TokenExpiryDate { get; set; }
 
-        public double? LimitWh { get; set; }
-        public double? LimitChargeTimeSeconds { get; set; }
+        public long? LimitWh { get; set; }
+        public long? LimitChargeTimeSeconds { get; set; }
 
     }
 

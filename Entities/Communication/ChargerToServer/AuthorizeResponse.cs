@@ -12,6 +12,7 @@ namespace Entities.Communication.ChargerToServer
         public long? LimitWh { get; set; }
         public long? LimitChargeTimeSeconds { get; set; }
 
+        public bool? DontCacheCard { get; set; }
     }
 
     public enum AuthorizeCodeEnum : byte
